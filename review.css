@@ -48,3 +48,7 @@ footer{padding:1rem 0 2rem;font-size:.88rem;color:var(--mute)}
 .footer-row p{margin:0}
 @media(max-width:660px){.wrap{width:calc(100% - 1.4rem)}.edition{display:none}.masthead{display:block}.figure-head{display:block}.pdf{margin-top:.55rem}.panel-list{grid-template-columns:1fr}.figure-section{padding-block:1.7rem}.nav-row{gap:.1rem}.nav-row a{padding-inline:.5rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.figure-addendum{margin-top:1.6rem;padding-top:1.3rem;border-top:1px solid var(--line)}
+.figure-addendum h3{margin:.15rem 0 .4rem}
+.figure-addendum > p:not(.figure-number){max-width:85ch;color:var(--mute)}
